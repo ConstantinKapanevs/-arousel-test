@@ -1,0 +1,35 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    border: 2px double blue;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    max-width: 90vw;
+}
+
+.person-card {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.info {
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 70px;
+}
